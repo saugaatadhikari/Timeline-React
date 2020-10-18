@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
+import Timeline from "./Timeline";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <h1>React Timeline</h1>
+      <Timeline />
+    </>
+  );
 }
 
 export default App;
